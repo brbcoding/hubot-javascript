@@ -1,0 +1,25 @@
+{
+  "name": "hubot-javascript",
+  "description": "An example script package for Hubot",
+  "version": "0.0.1",
+  "author": "Cody Henshaw",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brbcoding/hubot-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brbcoding/hubot-javascript/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "sandbox": "^0.8.6"
+  },
+  "main": "index.coffee",
+  "homepage": "https://github.com/brbcoding/hubot-javascript"
+}
