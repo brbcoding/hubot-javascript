@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot (run|sandbox) <javascript> - Execute the javascript code
+#   hubot (run|sandbox|js) <javascript> - Execute the javascript code
 #
 # Original Author:
 #   ajacksified

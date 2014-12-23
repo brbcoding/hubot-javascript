@@ -1,6 +1,6 @@
 {
   "name": "hubot-javascript",
-  "description": "https://github.com/github/hubot-scripts/blob/master/src/scripts/javascript-sandbox.coffee packaged for NPM",
+  "description": "Run JavaScript in a sandboxed environment with Hubot!",
   "version": "0.0.2",
   "author": "Cody Henshaw",
   "license": "MIT",
