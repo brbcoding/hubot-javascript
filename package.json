@@ -1,7 +1,7 @@
 {
   "name": "hubot-javascript",
   "description": "https://github.com/github/hubot-scripts/blob/master/src/scripts/javascript-sandbox.coffee packaged for NPM",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Cody Henshaw",
   "license": "MIT",
   "keywords": [
