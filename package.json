@@ -1,38 +1,32 @@
 {
-  "name": "hubot-example",
-  "description": "An example script package for Hubot",
-  "version": "1.0.0",
-  "author": "Tom Bell <tomb@tomb.io>",
+  "name": "hubot-javascript",
+  "description": "https://github.com/github/hubot-scripts/blob/master/src/scripts/javascript-sandbox.coffee packaged for NPM",
+  "version": "0.0.1",
+  "author": "Cody Henshaw",
   "license": "MIT",
-
   "keywords": [
     "hubot",
     "hubot-scripts",
     "hubot-javascript"
   ],
-
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-example.git"
   },
-
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/brbcoding/hubot-javascript/issues"
   },
-
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "sandbox": "^0.8.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
     "sinon-chai": "*",
     "sinon": "*"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "script/test"
   }
