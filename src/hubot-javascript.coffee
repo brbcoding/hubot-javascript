@@ -13,8 +13,6 @@
 # Original Author:
 #   ajacksified
 #   
-# Packaged By:
-#   brbcoding
 
 Sandbox = require('sandbox')
 
