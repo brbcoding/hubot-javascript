@@ -12,7 +12,6 @@
 #
 # Original Author:
 #   ajacksified
-#   
 
 Sandbox = require('sandbox')
 
