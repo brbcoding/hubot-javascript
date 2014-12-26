@@ -10,8 +10,9 @@
 # Commands:
 #   hubot (run|sandbox|js) <javascript> - Execute the javascript code
 #
-# Original Author:
+# Author:
 #   ajacksified
+#   
 
 Sandbox = require('sandbox')
 

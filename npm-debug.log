@@ -1,25 +1,37 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', '/.' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 verbose publish [ './' ]
-5 error Error: Invalid version: "0.05"
-5 error     at Object.module.exports.fixVersionField (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:183:13)
-5 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:30:38
-5 error     at Array.forEach (native)
-5 error     at normalize (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:15)
-5 error     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
-5 error     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
-5 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
-5 error     at evalmachine.<anonymous>:271:14
-5 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
-5 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
-6 error If you need help, you may report this *entire* log,
-6 error including the npm and node versions, at:
-6 error     <http://github.com/npm/npm/issues>
-7 error System Darwin 13.4.0
-8 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
-9 error cwd /Users/chenshaw/Source/hubot-javascript
-10 error node -v v0.10.33
-11 error npm -v 1.4.28
-12 verbose exit [ 1, true ]
+4 verbose publish [ '/.' ]
+5 verbose cache add [ '/.', null ]
+6 verbose cache add name=undefined spec="/." args=["/.",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/.',
+7 verbose parsed url   path: '/.',
+7 verbose parsed url   href: '/.' }
+8 silly lockFile 6a253964- /.
+9 verbose lock /. /Users/chenshaw/.npm/6a253964-.lock
+10 silly lockFile 6a253964- /.
+11 silly lockFile 6a253964- /.
+12 error addLocal Could not install /.
+13 error Error: ENOENT, open '/package.json'
+14 error If you need help, you may report this *entire* log,
+14 error including the npm and node versions, at:
+14 error     <http://github.com/npm/npm/issues>
+15 error System Darwin 13.4.0
+16 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "/."
+17 error cwd /Users/chenshaw/Source/hubot-javascript
+18 error node -v v0.10.33
+19 error npm -v 1.4.28
+20 error path /package.json
+21 error code ENOENT
+22 error errno 34
+23 verbose exit [ 34, true ]
